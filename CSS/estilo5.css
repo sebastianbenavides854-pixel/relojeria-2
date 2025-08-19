@@ -1,0 +1,101 @@
+.contenido_cuadricula1
+{
+    background-color: rgb(116, 52, 0);
+    padding: 20px;
+}
+.contenido_cuadricula
+{
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+    text-align: justify;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.cuadricula
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));/*Sirve para proporciones iguales*/
+    gap: 10px;/*Distribucion de espacio entre items*/
+    padding: 15px;/*Separacion interna de los items*/
+}
+.items
+{
+    border-radius: 10px;
+    text-align: center;
+    position: relative;/*La imagen ocupa su tamano*/
+    overflow: hidden;/* Encajamiento de la imagen*/
+    padding: 15px;
+    box-shadow: 4px 4px 4px 4px rgb(116, 52, 0);
+}
+.items img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-display: block;
+    transition: transform 1s ease, filter 1s ease;
+    transform-origin: center;
+
+}
+.items:hover img
+{
+    transform: scale(1.7);/* Escala de la imagen */
+    filter: brightness(0.5);/*Nivel de brillo*/
+}
+.text_cuadricula
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(116, 52, 0);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.items:hover .text_cuadricula
+{   
+    opacity: 1;
+    transform: translateY(0); 
+}
+.text_cuadricula h4, p
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 0px;
+}
+.menu_secundario
+{
+    width: 350px;
+    background-color: rgb(116, 52, 0);
+}
+.menu_secundario h2
+{
+
+    text-align: left;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-prueba
+{
+    width: 100%;
+    padding: 7px;
+}
+.items-secundario
+{
+    padding: 10px;/*Separacion interna de los items*/
+    border: 1px solid #000000;
+
+}
+.items-secundario a
+{
+    color:rgba(179, 179, 179, 0.753);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

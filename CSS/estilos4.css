@@ -1,0 +1,30 @@
+h5
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(179, 179, 179);
+}
+.container
+{
+    width: 100%;
+    height: auto;
+    padding:5px 5px; /*separa a traves de margenes internas*/
+    margin: 5px 5px; /*separar externamente*/
+}
+.row
+{
+    text-align: justify;
+    align-content: center;
+    text-align: center;
+    color: white;
+    padding: 100px ;
+}
+.accordion-body
+{
+    background-color: rgb(116, 52, 0);
+    color: rgb(179, 179, 179);
+    text-align: justify;
+}

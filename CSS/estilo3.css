@@ -1,0 +1,77 @@
+.contenido
+{
+    width: 100%;
+    height: auto;
+    padding:5px 5px; /*separa a traves de margenes internas*/
+    margin: 5px 5px; /*separar externamente*/
+    display: flex;
+
+}
+.texto1
+{
+    text-align: justify;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.texto1, .imagen1 /* agrupar (cuando hay dos clases que tienen las mismas caracteristicas)*/
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 8px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+.texto1 h1
+{
+    font-weight: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.imagen1 img
+{
+    height: 500px;
+    width: 100%;
+}
+.footer
+{
+    width: 100%;
+    display: flex;
+    background-color: #111;
+    padding: 20px;
+    color: white;
+}
+
+.footer_contenido 
+{
+    display: block;
+    flex: 1;
+    margin: 0 10px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+.footer_contenido2
+{
+    display: block;
+    flex: 1;
+    margin: 0 10px;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img_footer
+{
+    height: 180px;
+    width: 100%;
+    
+}
+

@@ -1,0 +1,71 @@
+.cab_img
+{
+    display: block;
+    width: 100%;
+    /*width: 1300px;*/
+    height: 400px;  
+    margin: 0%;
+    padding: 0%;
+}
+.menu
+{
+    padding: 0%;
+    width: 100%;/*esta propiedad define el ancho del menu*/
+    background-color: #111;/*color de relleno*/
+    margin:0%;
+    display: inline-block;/*sirve para colocar bloques en linea*/
+}
+.menu ul
+{
+    justify-content: center;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    
+}
+.itmenu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+}
+.itmenu li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: 0%;
+    padding: 40px 40px; 
+    position: relative;
+
+}
+.itmenu li a
+{
+    color:rgb(179, 179, 179);
+    text-decoration:none ;
+}
+.itmenu li a:hover
+{
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(116, 52, 0);
+    color: white;
+    font-size: 12px;
+}
+.itmenu li a:hover, .itmenu:focus
+{
+    background-color: rgb(116, 52, 0);
+    color: white;
+    transform: scale(1.06);
+    align-items: center;
+}
+.foco.activo
+{
+    background-color:rgba(175, 175, 175, 0.521);
+    color: black;
+    font-weight: bold;
+    border-left: 5px solid #111;
+}
